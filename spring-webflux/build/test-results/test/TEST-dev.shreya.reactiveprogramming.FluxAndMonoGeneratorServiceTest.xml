@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-30T16:26:09" hostname="SHREYA-ACER" time="0.162">
+<testsuite name="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-30T16:27:38" hostname="SHREYA-ACER" time="0.149">
   <properties/>
-  <testcase name="fluxOfNamesMap()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.125"/>
+  <testcase name="fluxOfNamesMap()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.12"/>
   <testcase name="fluxOfNames()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.002"/>
-  <testcase name="monoOfNames()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.027"/>
-  <testcase name="fluxOfNames_count()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.003"/>
-  <system-out><![CDATA[21:56:09.313 [Test worker] DEBUG reactor.util.Loggers -- Using Slf4j logging framework
-21:56:09.333 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
-21:56:09.336 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | request(unbounded)
-21:56:09.337 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(PATHAK)
-21:56:09.337 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(DEY)
-21:56:09.338 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(SAGAR)
-21:56:09.338 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onComplete()
-21:56:09.346 [Test worker] INFO reactor.Flux.Iterable.2 -- | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
-21:56:09.347 [Test worker] INFO reactor.Flux.Iterable.2 -- | request(unbounded)
-21:56:09.347 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(pathak)
-21:56:09.347 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(dey)
-21:56:09.347 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(sagar)
-21:56:09.347 [Test worker] INFO reactor.Flux.Iterable.2 -- | onComplete()
-21:56:09.375 [Test worker] INFO reactor.Mono.Just.3 -- | onSubscribe([Synchronous Fuseable] Operators.ScalarSubscription)
-21:56:09.375 [Test worker] INFO reactor.Mono.Just.3 -- | request(unbounded)
-21:56:09.375 [Test worker] INFO reactor.Mono.Just.3 -- | onNext(dey)
-21:56:09.375 [Test worker] INFO reactor.Mono.Just.3 -- | onComplete()
-21:56:09.380 [Test worker] INFO reactor.Flux.Iterable.4 -- | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
-21:56:09.380 [Test worker] INFO reactor.Flux.Iterable.4 -- | request(unbounded)
-21:56:09.380 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(pathak)
-21:56:09.380 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(dey)
-21:56:09.380 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(sagar)
-21:56:09.381 [Test worker] INFO reactor.Flux.Iterable.4 -- | onComplete()
+  <testcase name="monoOfNames()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.022"/>
+  <testcase name="fluxOfNames_count()" classname="dev.shreya.reactiveprogramming.FluxAndMonoGeneratorServiceTest" time="0.001"/>
+  <system-out><![CDATA[21:57:38.416 [Test worker] DEBUG reactor.util.Loggers -- Using Slf4j logging framework
+21:57:38.436 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
+21:57:38.439 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | request(unbounded)
+21:57:38.439 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(PATHAK)
+21:57:38.440 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(DEY)
+21:57:38.440 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(SAGAR)
+21:57:38.440 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onComplete()
+21:57:38.449 [Test worker] INFO reactor.Flux.Iterable.2 -- | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
+21:57:38.449 [Test worker] INFO reactor.Flux.Iterable.2 -- | request(unbounded)
+21:57:38.450 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(pathak)
+21:57:38.450 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(dey)
+21:57:38.450 [Test worker] INFO reactor.Flux.Iterable.2 -- | onNext(sagar)
+21:57:38.450 [Test worker] INFO reactor.Flux.Iterable.2 -- | onComplete()
+21:57:38.471 [Test worker] INFO reactor.Mono.Just.3 -- | onSubscribe([Synchronous Fuseable] Operators.ScalarSubscription)
+21:57:38.472 [Test worker] INFO reactor.Mono.Just.3 -- | request(unbounded)
+21:57:38.472 [Test worker] INFO reactor.Mono.Just.3 -- | onNext(dey)
+21:57:38.472 [Test worker] INFO reactor.Mono.Just.3 -- | onComplete()
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | request(unbounded)
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(pathak)
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(dey)
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | onNext(sagar)
+21:57:38.475 [Test worker] INFO reactor.Flux.Iterable.4 -- | onComplete()
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
