@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.shreya'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.projectreactor:reactor-core:3.5.4'
+    //reactor-debug-agent
+    implementation 'io.projectreactor:reactor-tools:3.4.0'
+    //log - logback
+    implementation 'ch.qos.logback:logback-classic:1.4.7'
+
+    //testing
+    testImplementation 'io.projectreactor:reactor-test:3.5.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

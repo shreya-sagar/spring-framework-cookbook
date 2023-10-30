@@ -1,0 +1,3 @@
+rootProject.name = 'spring-framework-cookbook'
+include 'spring-webflux'
+
